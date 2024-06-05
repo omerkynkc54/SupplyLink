@@ -1,0 +1,133 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using SupplyLink.Utility
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Supply Link</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #232B33;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+            .navbar-brand img {
+                height: 40px;
+                margin-right: 10px;
+            }
+
+            .navbar-brand span {
+                color: #CC042C;
+            }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .nav-item {
+            margin-left: 20px;
+        }
+
+        .nav-link {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+            .nav-link:hover {
+                color: #CCCCCC;
+            }
+
+        .navbar-login {
+            color: #FFFFFF;
+            background-color: #4C545C;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            .navbar-login:hover {
+                background-color: #5D5F67;
+            }
+
+        .nav-item.register-login {
+            display: flex;
+        }
+
+            .nav-item.register-login a {
+                margin-left: 10px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="/">
+                <img src="~/images/logo.png" alt="Logo" />
+                <span>Supply Link</span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Cart" asp-action="Index">
+                        <i class="bi bi-cart"></i>
+                    </a>
+                </li>
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Order")">
+                            <button type="submit" class="nav-link btn btn-link text-white">Çıkış Yap</button>
+                        </form>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item register-login">
+                        <a class="nav-link" asp-area="Identity" asp-page="Identity/Account/Register">Kayıt Ol</a>
+                        <a class="nav-link" asp-area="Identity" asp-page="Identity/Account/Login">Giriş Yap</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

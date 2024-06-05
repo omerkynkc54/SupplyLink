@@ -1,0 +1,158 @@
+@model IEnumerable<OrderViewModel>
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Sipariþler";
+    var isAdminOrPurchase = (bool)ViewBag.IsAdminOrPurchase;
+}
+
+<style>
+    .card {
+        transition: transform 0.2s;
+    }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .card .closed, .card .open {
+            cursor: pointer;
+        }
+
+    .open {
+        background-color: #232B33;
+        color: white;
+    }
+
+    .card .closed h5, .card .open h5 {
+        font-weight: bold;
+    }
+
+    .card .closed p, .card .open p {
+        margin: 0;
+    }
+
+    .card img {
+        max-height: 200px;
+        object-fit: cover;
+    }
+    
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+/* CSS */
+.button-50 {
+  appearance: button;
+        background-color: #232B33;
+  background-image: none;
+  border: 1px solid #232B33;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+</style>
+
+<br />
+<div class="container2">
+<br />
+<h1>Sipariþler</h1>
+<br />
+
+    <div class="mb-3">
+        <a class="button-50" asp-action="Create">Sipariþ Oluþtur</a>
+    </div>
+</div>
+<br />
+<div class="container">
+    <div class="row">
+        @foreach (var order in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4" id="order-@order.Id" onclick="toggleCard(@order.Id)">
+                    <div class="card-body closed">
+                        <h5 class="card-title">@order.Name</h5>
+                        <p class="card-text">@order.Quantity @order.UnitOfMeasure</p>
+                    </div>
+                    <div class="card-body open d-none">
+                        <h5 class="card-title">@order.Name</h5>
+                        <img src="@((string.IsNullOrEmpty(order.ImagePath) ? Url.Content("~/images/applicationImages/placeholder.png") : Url.Content($"~/{order.ImagePath}")))" class="card-img-top img-fluid" alt="Order Image">
+                        <br />
+                        <p class="card-text">Ürün Tipi: @order.Type</p>
+                        <p class="card-text">Ölçü-Birim: @order.UnitOfMeasure</p>
+                        <p class="card-text">Adet: @order.Quantity</p>
+                        <p class="card-text">Notlar: @order.Notes</p>
+                        <p class="card-text">Tarih: @order.OrderDate.ToString("dd/MM/yyyy")</p>
+                        <p class="card-text">Durum: @order.Status</p>
+                        <p class="card-text">Talep Eden: @order.RequesterName</p>
+                        @if (isAdminOrPurchase)
+                        {
+                            <button class="btn btn-danger" onclick="confirmDelete('@order.Name', '@Url.Action("Delete", new { id = order.Id })')">Delete</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function toggleCard(orderId) {
+            var card = document.getElementById('order-' + orderId);
+            var closedBody = card.querySelector('.closed');
+            var openBody = card.querySelector('.open');
+            closedBody.classList.toggle('d-none');
+            openBody.classList.toggle('d-none');
+        }
+        function confirmDelete(orderName, deleteUrl) {
+            if (confirm(`Are you sure you want to delete the order: ${orderName}?`)) {
+                window.location.href = deleteUrl;
+            }
+        }
+    </script>
+}

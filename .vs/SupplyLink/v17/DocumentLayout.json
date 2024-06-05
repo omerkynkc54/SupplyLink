@@ -1,0 +1,836 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\views\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\views\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\migrations\\20240604221057_initialcreate2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\migrations\\20240604221057_initialcreate2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\migrations\\20240604221057_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\migrations\\20240604221057_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\migrations\\20240604220028_initialcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\migrations\\20240604220028_initialcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\migrations\\20240604214939_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\migrations\\20240604214939_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\migrations\\20240604214939_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\migrations\\20240604214939_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\SupplyLink.csproj|solutionrelative:trinketfactoryweb\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\migrations\\20240604220028_initialcreate1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\migrations\\20240604220028_initialcreate1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604212530_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Migrations\\20240604212530_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604204903_UpdateOrderAndApplicationUserModels11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Migrations\\20240604204903_UpdateOrderAndApplicationUserModels11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\models\\unitofmeasure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\models\\unitofmeasure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\models\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\models\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|c:\\users\\omerk\\source\\repos\\trinketfactory-master\\trinketfactoryweb\\utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B33BD794-87D6-4E8B-B177-94F102E558A9}|TrinketFactoryWeb\\TrinketFactoryWeb.csproj|solutionrelative:trinketfactoryweb\\utility\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ProductType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Models\\ProductType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Cart\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Cart\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Cart\\Purchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Cart\\Purchase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Models\\Cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Product\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Product\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Product\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Category\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Category\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Product\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Category\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Views\\Category\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrinketFactoryWeb\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 299,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TwoFactorAuthentication.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:55:03.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAKsBAAAAAAAAAAAUwKsBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:53:57.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240604221057_InitialCreate2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.Designer.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.Designer.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.Designer.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.Designer.cs",
+              "ViewState": "AQIAACsCAAAAAAAAAAAEwDgCAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:52:20.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240604221057_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604221057_InitialCreate2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:52:17.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240604220028_InitialCreate1.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:52:14.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:51:16.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:45:58.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\About.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\About.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\About.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:55:58.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\About.cshtml.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\About.cshtml.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\About.cshtml.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\About.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:56:08.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:56:31.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:51:11.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T05:51:06.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwBgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:26:55.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAswIkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:41:54.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240604214939_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T04:55:59.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240604214939_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.Designer.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604214939_InitialCreate.Designer.cs",
+              "ViewState": "AQIAADcCAAAAAAAAAAAEwEgCAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T04:56:04.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAGoBAAAAAAAAAAAswI4BAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T04:47:43.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Utility\\SD.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Utility\\SD.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Utility\\SD.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Utility\\SD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:14:35.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Order.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\Order.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T03:06:54.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240604220028_InitialCreate1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.Designer.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.Designer.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.Designer.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604220028_InitialCreate1.Designer.cs",
+              "ViewState": "AQIAAJMBAAAAAAAAAAAhwEABAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T04:56:06.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T04:24:27.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Order\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T03:42:36.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:19:57.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\ApplicationUser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:14:24.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240604212530_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604212530_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604212530_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604212530_InitialCreate.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604212530_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T21:25:30.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAcwHsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T02:29:50.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAADsBAAAAAAAAAAAswFMBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T04:25:45.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Department.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\Department.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:27:12.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Program.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Program.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAwwEQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:14:46.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitOfMeasure.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\UnitOfMeasure.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\UnitOfMeasure.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\UnitOfMeasure.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\UnitOfMeasure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:26:26.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductType.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ProductType.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\ProductType.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ProductType.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\ProductType.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:32:35.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240604204903_UpdateOrderAndApplicationUserModels11.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604204903_UpdateOrderAndApplicationUserModels11.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Migrations\\20240604204903_UpdateOrderAndApplicationUserModels11.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Migrations\\20240604204903_UpdateOrderAndApplicationUserModels11.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Migrations\\20240604204903_UpdateOrderAndApplicationUserModels11.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:49:03.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderType.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\OrderType.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\OrderType.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\OrderType.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\OrderType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:26:22.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:19:25.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:27:11.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Cart\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:41:29.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Purchase.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Cart\\Purchase.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Cart\\Purchase.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Cart\\Purchase.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Cart\\Purchase.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:44:20.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Controllers\\ProductController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:46:08.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Controllers\\CategoryController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:05:47.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Cart.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\Cart.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:16:55.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Product\\Details.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T21:33:22.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Product\\Create.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:23:41.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Category.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\Category.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:05:34.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Product\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:36:33.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Category\\Edit.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:45:11.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Product\\Edit.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:41:44.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "TrinketFactoryWeb\\Views\\Category\\Create.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:45:08.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\Product.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\Product.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:23:10.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Models\\CartItem.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Models\\CartItem.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:20:31.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Utility\\EmailSender.cs",
+              "RelativeDocumentMoniker": "TrinketFactoryWeb\\Utility\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\omerk\\source\\repos\\TrinketFactory-master\\TrinketFactoryWeb\\Utility\\EmailSender.cs",
+              "RelativeToolTip": "TrinketFactoryWeb\\Utility\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:19:46.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

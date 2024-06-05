@@ -1,0 +1,374 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: #1a1f36;
+            box-sizing: border-box;
+            word-wrap: break-word;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
+        }
+        body {
+            min-height: 100%;
+            background-color: #ffffff;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-root {
+            background: #fff;
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+        }
+        .loginbackground {
+            min-height: 692px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 0;
+            overflow: hidden;
+        }
+        .flex-flex {
+            display: flex;
+        }
+        .align-center {
+            align-items: center; 
+        }
+        .center-center {
+            align-items: center;
+            justify-content: center;
+        }
+        .box-root {
+            box-sizing: border-box;
+        }
+        .flex-direction--column {
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+        .loginbackground-gridContainer {
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: [start] 1fr [left-gutter] (86.6px)[16] [left-gutter] 1fr [end];
+            grid-template-columns: [start] 1fr [left-gutter] repeat(16, 86.6px) [left-gutter] 1fr [end];
+            -ms-grid-rows: [top] 1fr [top-gutter] (64px)[8] [bottom-gutter] 1fr [bottom];
+            grid-template-rows: [top] 1fr [top-gutter] repeat(8, 64px) [bottom-gutter] 1fr [bottom];
+            justify-content: center;
+            margin: 0 -2%;
+            transform: rotate(-12deg) skew(-12deg);
+            z-index: 1; /* Adjust z-index */
+        }
+        .box-divider--light-all-2 {
+            box-shadow: inset 0 0 0 2px #e3e8ee;
+        }
+        .box-background--blue {
+            background-color: #CC042C;
+        }
+        .box-background--white {
+            background-color: #ffffff; 
+        }
+        .box-background--blue800 {
+            background-color: #4C545C;
+        }
+        .box-background--gray100 {
+            background-color: #e3e8ee;
+        }
+        .box-background--cyan200 {
+            background-color: #232B33;
+        }
+        .padding-top--64 {
+            padding-top: 64px;
+        }
+        .padding-top--24 {
+            padding-top: 24px;
+        }
+        .padding-top--48 {
+            padding-top: 48px;
+        }
+        .padding-bottom--24 {
+            padding-bottom: 24px;
+        }
+        .padding-horizontal--48 {
+            padding: 48px;
+        }
+        .padding-bottom--15 {
+            padding-bottom: 15px;
+        }
+        .flex-justifyContent--center {
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        .formbg {
+            margin: 0px auto;
+            width: 100%;
+            max-width: 448px;
+            background: white;
+            border-radius: 4px;
+            box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+            z-index: 2; /* Adjust z-index */
+        }
+        span {
+            display: block;
+            font-size: 20px;
+            line-height: 28px;
+            color: #232B33;
+        }
+        label {
+            margin-bottom: 10px;
+        }
+        .reset-pass a, label {
+            font-size: 14px;
+            font-weight: 600;
+            display: block;
+        }
+        .reset-pass > a {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        .grid--50-50 {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            align-items: center;
+        }
+        .field input,
+        .field select,
+        .field textarea {
+            font-size: 16px;
+            line-height: 28px;
+            padding: 8px 16px;
+            width: 100%;
+            min-height: 44px;
+            border: unset;
+            border-radius: 4px;
+            outline-color: rgb(84 105 212 / 0.5);
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(60, 66, 87, 0.16) 0px 0px 0px 1px;
+        }
+        input[type="submit"],
+        button {
+            background-color: #CC042C;
+            box-shadow: #4C545C 0px 0px 0px 1px;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 4px;
+            border: none;
+            width: 100%;
+        }
+        .field-checkbox input {
+            width: 20px;
+            height: 15px;
+            margin-right: 5px; 
+            box-shadow: unset;
+            min-height: unset;
+        }
+        .field-checkbox label {
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+        a.ssolink {
+            display: block;
+            text-align: center;
+            font-weight: 600;
+        }
+        .footer-link span {
+            font-size: 14px;
+            text-align: center;
+        }
+        .listing a {
+            color: #232B33;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+        .animationRightLeft {
+            animation: animationRightLeft 2s ease-in-out infinite;
+        }
+        .animationLeftRight {
+            animation: animationLeftRight 2s ease-in-out infinite;
+        }
+        .tans3s {
+            animation: animationLeftRight 3s ease-in-out infinite;
+        }
+        .tans4s {
+            animation: animationLeftRight 4s ease-in-out infinite;
+        }
+        @@keyframes animationLeftRight {
+            0% {
+                transform: translateX(0px);
+            }
+            50% {
+                transform: translateX(1000px);
+            }
+            100% {
+                transform: translateX(0px);
+            }
+        }
+
+        @@keyframes animationRightLeft {
+            0% {
+                transform: translateX(0px);
+            }
+            50% {
+                transform: translateX(-1000px);
+            }
+            100% {
+                transform: translateX(0px);
+            }
+
+        } 
+        /* CSS */
+        .button-50 {
+            appearance: button;
+            background-color: #232B33;
+            background-image: none;
+            border: 1px solid #232B33;
+            border-radius: 4px;
+            box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            margin: 0 5px 10px 0;
+            overflow: visible;
+            padding: 12px 40px;
+            text-align: center;
+            text-transform: none;
+            touch-action: manipulation;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+
+            .button-50:focus {
+                text-decoration: none;
+            }
+
+            .button-50:hover {
+                text-decoration: none;
+            }
+
+            .button-50:active {
+                box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+                outline: 0;
+            }
+
+            .button-50:not([disabled]):active {
+                box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+                transform: translate(2px, 2px);
+            }
+
+        .button-50 {
+            padding: 12px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-root">
+        <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+            <div class="loginbackground">
+                <div class="loginbackground-gridContainer">
+                    <div class="box-root flex-flex" style="grid-area: 6 / 2 / auto / 5;">
+                        <div class="box-root box-divider--light-all-2 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 8 / start / auto / 2;">
+                        <div class="box-root box-background--blue800" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 9 / start / auto / 4;">
+                        <div class="box-root box-background--blue animationLeftRight" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 10 / 4 / auto / 6;">
+                        <div class="box-root box-background--gray100 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 5 / 15 / auto / end;">
+                        <div class="box-root box-background--cyan200 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 6 / 14 / auto / end;">
+                        <div class="box-root box-background--blue animationRightLeft" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 7 / 17 / auto / 20;">
+                        <div class="box-root box-background--gray100 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 8 / 14 / auto / 17;">
+                        <div class="box-root box-divider--light-all-2 animationRightLeft tans3s" style="flex-grow: 1;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+                <div class="formbg-outer">
+                    <div class="formbg">
+                        <div class="formbg-inner padding-horizontal--48">
+                            <h1 class="padding-bottom--15">Giriş Yap</h1>
+                            <section>
+                                <form id="account" method="post">
+                                    <h2>Var olan hesapla giriş yap.</h2>
+                                    <hr />
+                                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                                        <label asp-for="Input.Email" class="form-label">Email</label>
+                                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                                        <label asp-for="Input.Password" class="form-label">Şifre</label>
+                                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                    </div>
+                                    <div class="checkbox mb-3">
+                                        <label asp-for="Input.RememberMe" class="form-label">
+                                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                                            Beni Hatırla
+                                        </label>
+                                    </div>
+
+                                    <div>
+                                        <button id="login-submit" type="submit" class="button-50">Giriş Yap</button>
+                                    </div>
+                                    <br />
+                                    <div>
+                                        <p>
+                                            <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="button-50" style="text-decoration: none; display: inline-block; text-align: center;">Kayıt ol</a>
+                                        </p>
+                                    </div>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>
