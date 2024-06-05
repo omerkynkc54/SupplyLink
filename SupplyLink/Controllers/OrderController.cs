@@ -79,7 +79,7 @@ namespace SupplyLink.Controllers
         // POST: /Order/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Order order, IFormFile imageFile)
+        public async Task<IActionResult> Create(Order order, IFormFile imagePath)
         {
             var currentUser = await _userManager.GetUserAsync(User);
             order.SetRequesterId(_userManager, User);
@@ -89,7 +89,7 @@ namespace SupplyLink.Controllers
 
             try
             {
-                if (imageFile != null && imageFile.Length > 0)
+                if (imagePath != null && imagePath.Length > 0)
                 {
                     var uploads = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
                     if (!Directory.Exists(uploads))
@@ -97,12 +97,12 @@ namespace SupplyLink.Controllers
                         Directory.CreateDirectory(uploads);
                     }
 
-                    var fileName = Path.GetFileName(imageFile.FileName);
+                    var fileName = Path.GetFileName(imagePath.FileName);
                     var filePath = Path.Combine(uploads, fileName);
 
                     using (var stream = new FileStream(filePath, FileMode.Create))
                     {
-                        await imageFile.CopyToAsync(stream);
+                        await imagePath.CopyToAsync(stream);
                     }
 
                     order.ImagePath = Path.Combine("images", fileName).Replace("\\", "/");

@@ -95,9 +95,9 @@ namespace SupplyLink.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [StringLength(100, ErrorMessage = "{0} en az {2} en çok {1} karakter olmalýdýr.", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name = "Password")]
+            [Display(Name = "Þifre")]
             public string Password { get; set; }
 
             /// <summary>
@@ -105,8 +105,8 @@ namespace SupplyLink.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Display(Name = "Þifreyi Onaylayýn")]
+            [Compare("Password", ErrorMessage = "Þifreler Uyumsuz.")]
             public string ConfirmPassword { get; set; }
 
             public string Role { get; set; }
@@ -174,7 +174,7 @@ namespace SupplyLink.Areas.Identity.Pages.Account
                         protocol: Request.Scheme);
 
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                        $"Lütfen hesabýnýzý onaylamak için <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>buraya týklayýn.</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {

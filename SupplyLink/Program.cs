@@ -1,12 +1,3 @@
-// tempdata notifaciaton
-// pagination - search ve filtre 
-// Checkout - Cart buy view düzenleme
-// bakılabilirse bootstrap teması
-// (Must) Details - Emre
-// Genel veri düzeni - Emre
-// Layout değişimi + Shopping cart
-// Customer Name  logout dropdown muadili bişeye sığdır
-
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Build.Framework;
